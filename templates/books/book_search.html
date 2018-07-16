@@ -1,0 +1,10 @@
+{% extends "base_generic.html" %}
+{% block content %}
+
+    <form action="/api/books/" method="get">
+        <label for="book_isbn">Enter ISBN: </label>
+        <input id="book_isbn" type="text" name="isbn">
+        <input type="submit" value="OK">
+    </form>
+
+{% endblock %}

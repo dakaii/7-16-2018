@@ -1,0 +1,32 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+
+{% if book.error %}
+  <h1>Error: {{ book.error }}</h1>
+{% else %}
+  <h1>Title: {{ book.title }}</h1>
+  <p><strong>ISBN: </strong>{{ book.isbn }}</p>
+  <p><strong>Title: </strong>{{ book.title }}</p>
+  <p><strong>Author: </strong>
+  {% for author in book.authors %}
+    {{ author }}
+  {% endfor %}
+  </p>
+  <p><strong>Description: </strong>{{ book.description }}</a></p>
+  <p><strong>Publisher: </strong>{{ book.publisher }}</a></p>
+  <p><strong>Published Date: </strong>{{ book.publication_date }}</a></p>
+  <p><strong>Category: </strong>
+    {% for category in book.categories %}
+      {{ category }}</a>
+    {% endfor %}
+  </p>
+  <img src="{{book.thumbnail}}" alt="">
+  </div>
+  {% endif %}
+  </br>
+  <div>
+    <input type="button" onclick="location.href='/api/books';" value="Go Back" />
+  </div>
+
+{% endblock %}
