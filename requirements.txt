@@ -76,7 +76,7 @@ lazy-object-proxy==1.2.2
 llvmlite==0.18.0
 locket==0.2.0
 lru-dict==1.1.6
-lxml==3.7.3
+lxml==4.6.2
 MarkupSafe==0.23
 matplotlib==2.0.2
 mistune==0.7.4
