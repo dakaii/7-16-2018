@@ -163,7 +163,7 @@ unicodecsv==0.14.1
 urllib3==1.22
 wcwidth==0.1.7
 web3==4.2.1
-websockets==5.0.1
+websockets==9.1
 Werkzeug==0.12.2
 widgetsnbextension==2.0.0
 wrapt==1.10.10
