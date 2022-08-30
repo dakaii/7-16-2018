@@ -41,7 +41,7 @@ epf==1.0.4
 epub==0.5.2
 et-xmlfile==1.0.1
 eth-abi==1.1.1
-eth-account==0.2.3
+eth-account==0.5.9
 eth-hash==0.1.4
 eth-keyfile==0.5.1
 eth-keys==0.2.0b3
